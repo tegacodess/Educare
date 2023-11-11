@@ -1,11 +1,15 @@
 
 header{
+    position: fixed;
+    top:0px;
     width: 100%;
     background-color: #F9E0AE;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 70px;
+    margin-left: 0px;
+    padding-left: 0px;
 
 }
 body{
@@ -13,6 +17,21 @@ body{
     font-family: 'Poppins', sans-serif;
     
 }
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(94, 91, 91); 
+    border-radius: 6px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color:  darkgrey; /* Color of the track */
+  }
+  
 header ul{
     list-style: none;
     margin: 0;
@@ -96,6 +115,7 @@ header li img {
 }
 
 #section2{
+    align-items: center;
     justify-content:space-evenly;
     display: flex;
     margin: 20px;
@@ -106,21 +126,21 @@ header li img {
     height: 379px;
 }
 
-#section2 h2{
+#section2 .part1 h2{
     width: 500px;
-    height: 144px;
     top: 44px;
     left: 587px;
-    margin: 0px;
+    margin-bottom: 10px;
     text-align: left;
     justify-content: center;
 }
-#section2 ul{    
-    margin-top: 0px;
+#section2 ul{ 
+    justify-content: center;
+    top: 20px;
     width: 500px;
     font-size: 20px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -205,14 +225,33 @@ footer {
     margin: auto;
     position: relative; 
 }
+#footer .footer1{
+    align-items: center;
+}
+#footer .footerh4 h4{
+    /* width: 500px; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    top: 44px;
+    left: 587px;
+    text-align: left;
+    justify-content: center;
+}
 
+#footer .footer1 ul{
+    justify-content: center;
+    top: 20px;
+    width: 500px;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
 #footer .footer1 li {
     padding-top: 0px;
     margin-top: 0px;
     display: inline-flex;
     list-style: none;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 #footer .footer1{
     margin:0 5px;
