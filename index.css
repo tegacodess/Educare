@@ -16,7 +16,21 @@ body{
     font-family: 'Gruppo', sans-serif;
     font-family: 'Poppins', sans-serif;
     
-}
+}/*For Desktop */
+@media (min-width: 768px) {
+    body {
+      background-color: #f0f0f0;
+    }
+  
+    
+  }
+  
+  /* Styles for Mobile */
+  @media (max-width: 767px) {
+    body {
+      background-color: #fff;
+    }
+  }
 
 
 ::-webkit-scrollbar {
